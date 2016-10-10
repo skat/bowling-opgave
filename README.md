@@ -51,7 +51,7 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
   * URL til dit public kildekode repository 
   * Evt. URL til en DockerHub instans, hvor vi kan hente en Docker container med nødvendige afhængigheder for at køre koden. 
 * Kildekode skal have testkode som verificerer at din point-algoritme fungerer.
-* 10-kegle bowling regler med traditionelle 10-kegle regler. 
+* 10-kegle bowling med traditionelle 10-kegle regler. 
   * https://en.wikipedia.org/wiki/Ten-pin_bowling#Traditional_scoring  
   * https://da.wikipedia.org/wiki/Bowling 
   * Simulator: http://www.bowlinggenius.com/ 
