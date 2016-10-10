@@ -29,7 +29,18 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
     <tr>
       <td valign="top">POST</td>
       <td valign="top">http://37.139.2.74/api/points</td>
-      <td valign="top">token: "iNg2h8fjsa"<br />points: "[10,16,23,33,48]"</td>
+      <td valign="top">token: (string)
+        <br />
+        YHGgktp8DkUpMsmjmJfsOTJ3PUAxJOBk
+        <br />
+        points: (json)
+        <br />
+        [10,16,23,33,48] => [10,16,23,33,48]
+        <br />
+        {"1": 2, "0": 10, "2": 5, "3":30} => [2, 10, 5, 30]
+        <br />
+        Invalid JSON objects will be seen as an empty array.
+      </td>
       <td valign="top"><i>token</i>: Modtaget i GET<br /><i>points</i>: Dine kalkulerede summer<br /><br />Returnerer HTTP status kode ”200 OK” hvis summerne og token er korrekt.<br /><br />Summerne er en liste af de akkumulerende point resultater.<br /><br />T. ex. giver <i>point</i> [[3,7],[10,0],[8,2],[8,1],[10,0],[3,4],[7,0],[5,5],[3,2],[2,5]] <i>summerne</i> [20,40,58,67,84,91,98,111,116,123], hvor 123 er totalsummen efter, i det her tilfælde, 10 omganger.</td>
     </tr>
   </tbody>
