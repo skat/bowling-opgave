@@ -45,7 +45,7 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
 ##Forudsætninger
 * Programmeringssprog: Valgfrit 
 * Løsningsdesign/arkitektur: Valgfrit 
-* UI: Valgfrit 
+* UI: Valgfrit om nødvendig
 * Kildekode kan leveres som et af følgende sammen med din ansøgning: 
   * .zip fil 
   * URL til dit public kildekode repository 
