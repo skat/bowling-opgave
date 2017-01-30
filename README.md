@@ -16,7 +16,7 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
     </tr>
     <tr>
       <td valign="top">GET</td>
-      <td valign="top">http://37.139.2.74/api/points</td>
+      <td valign="top">http://95.85.62.55/api/points</td>
       <td valign="top"></td>
       <td>
         <ul>
@@ -28,7 +28,7 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
     </tr>
     <tr>
       <td valign="top">POST</td>
-      <td valign="top">http://37.139.2.74/api/points</td>
+      <td valign="top">http://95.85.62.55/api/points</td>
       <td valign="top"><i>token</i>: (string)
         <br />
         YHGgktp8DkUpMsmjmJfsOTJ3PUAxJOBk
