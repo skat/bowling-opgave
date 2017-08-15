@@ -42,7 +42,7 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
   </tbody>
 </table>
 
-##Forudsætninger
+## Forudsætninger
 * Programmeringssprog: Valgfrit 
 * Løsningsdesign/arkitektur: Valgfrit 
 * UI: Valgfrit om nødvendig
