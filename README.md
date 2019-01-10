@@ -55,6 +55,3 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
   * https://en.wikipedia.org/wiki/Ten-pin_bowling#Traditional_scoring  
   * https://da.wikipedia.org/wiki/Bowling 
   * Simulator: http://www.bowlinggenius.com/ 
-  
-  
-![bowlingpin](http://sportshlok.com/appimg/Rules-of-Bowling/3.jpg)
