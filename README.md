@@ -33,14 +33,14 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
         <br />
         YHGgktp8DkUpMsmjmJfsOTJ3PUAxJOBk
         <br /><br />
-        <i>points</i>: (array formateret som string)
+        <i>points</i>: (array)
         <br />
         [10,16,23,33,48]
         <br />
         <br />
         Eksempel på json body:
         <br />
-        {"token": "124jgjfj3FkenI", "points": "[5, 10, 25, 30]"}
+        {"token": "124jgjfj3FkenI", "points": [5, 10, 25, 30]}
       </td>
       <td valign="top"><i>token</i>: Modtaget i GET<br /><i>points</i>: Dine kalkulerede summer<br /><br />Returnerer HTTP status kode ”200 OK” hvis <i>token</i> er korrekt og JSON { "success": true } hvis <i>summerne</i> er korrekt.<br /><br />Summerne er en liste af de akkumulerende point resultater.<br /><br />T. ex. giver <i>point</i> [[3,7],[10,0],[8,2],[8,1],[10,0],[3,4],[7,0],[5,5],[3,2],[2,5]] <i>summerne</i> [20,40,58,67,84,91,98,111,116,123], hvor 123 er totalsummen efter, i det her tilfælde, 10 omganger. <br /><br /> Tip: Hvis pointene ender på <i>spare / strike</i> før et normal spils længde, så vil der ikke udløses bonus. For eksempel vil [[2, 0], [8, 2]] give <i>summerne</i> [2, 12]</td>
     </tr>
