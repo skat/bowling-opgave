@@ -48,14 +48,12 @@ For at løse opgaven skal du bruge to REST API endpoints som midlertidigt tilbyd
 </table>
 
 ## Forudsætninger
-* Programmeringssprog: Valgfrit 
+* Programmeringssprog: Valgfrit (dog foretrækkes java/grails)
 * Løsningsdesign/arkitektur: Valgfrit 
 * UI: Valgfrit om nødvendig
-* Kildekode kan leveres som et af følgende sammen med din ansøgning: 
-  * .zip fil 
-  * URL til dit public kildekode repository 
+* Kildekode skal leveres via URL til kildekode repository på Github
   * Evt. URL til en DockerHub instans, hvor vi kan hente en Docker container med nødvendige afhængigheder for at køre koden. 
-* Kildekode skal have testkode som verificerer at din point-algoritme fungerer.
+* Kildekode skal testes på en passende måde.
 * 10-kegle bowling med traditionelle 10-kegle regler. 
   * https://en.wikipedia.org/wiki/Ten-pin_bowling#Traditional_scoring  
   * https://da.wikipedia.org/wiki/Bowling 
